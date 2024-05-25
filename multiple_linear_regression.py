@@ -113,6 +113,8 @@ r_ols1 = sm.OLS(endog = y1, exog = X1)
 r1 = r_ols1.fit()
 print(r1.summary())
 
+#---------------------------------------------------------------------------------------------------------------------------------
+
 #2016 Dünya Mutluluk Raporu 
 print(data2.columns)
 print(data2.info())
@@ -159,6 +161,8 @@ X2 = np.append(arr = np.ones((157,1)).astype(int), values=x2, axis=1)
 r_ols2 = sm.OLS(endog = y2, exog = X2)
 r2 = r_ols2.fit()
 print(r2.summary())
+
+#---------------------------------------------------------------------------------------------------------------------------------
 
 #2017 Dünya Mutluluk Raporu
 print(data3.columns)
@@ -239,6 +243,8 @@ r_ols3 = sm.OLS(endog = y3, exog = X3)
 r3 = r_ols3.fit()
 print(r3.summary())
 
+#---------------------------------------------------------------------------------------------------------------------------------
+
 #2018 Dünya Mutluluk Raporu
 
 #Eksik verilerin 0 olarak doldurulması sağlanmıştır.
@@ -279,6 +285,10 @@ X4 = np.append(arr = np.ones((156,1)).astype(int), values=x4, axis=1)
 r_ols4 = sm.OLS(endog = y4, exog = X4)
 r4 = r_ols4.fit()
 print(r4.summary())
+
+#---------------------------------------------------------------------------------------------------------------------------------
+
+#2019 Dünya Mutluluk Raporu
                             
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(missing_values=np.nan, strategy='constant',fill_value= 0)
@@ -317,6 +327,10 @@ X5 = np.append(arr = np.ones((156,1)).astype(int), values=x5, axis=1)
 r_ols5 = sm.OLS(endog = y5, exog = X5)
 r5 = r_ols5.fit()
 print(r5.summary())
+
+#---------------------------------------------------------------------------------------------------------------------------------
+
+#2020 Dünya Mutluluk Raporu
                            
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(missing_values=np.nan, strategy='constant',fill_value= 0)
@@ -355,6 +369,10 @@ X6 = np.append(arr = np.ones((153,1)).astype(int), values=x6, axis=1)
 r_ols6 = sm.OLS(endog = y6, exog = X6)
 r6 = r_ols6.fit()
 print(r6.summary())
+
+#---------------------------------------------------------------------------------------------------------------------------------
+
+#2021 Dünya Mutluluk Raporu
                            
 from sklearn.impute import SimpleImputer
 imputer = SimpleImputer(missing_values=np.nan, strategy='constant',fill_value= 0)
@@ -393,6 +411,8 @@ X7 = np.append(arr = np.ones((149,1)).astype(int), values=x7, axis=1)
 r_ols7 = sm.OLS(endog = y7, exog = X7)
 r7 = r_ols7.fit()
 print(r7.summary())
+
+#---------------------------------------------------------------------------------------------------------------------------------
                             
 #2022 Dünya Mutluluk Raporu
 from sklearn.impute import SimpleImputer
@@ -432,6 +452,8 @@ X8 = np.append(arr = np.ones((146,1)).astype(int), values=x8, axis=1)
 r_ols8 = sm.OLS(endog = y8, exog = X8)
 r8 = r_ols8.fit()
 print(r8.summary())
+
+#---------------------------------------------------------------------------------------------------------------------------------
                             
 #2015 Küresel Terörizm Raporu
 print(data9.columns)
@@ -441,6 +463,8 @@ df9 = data9["country"]
 dff9 = df9.value_counts()
 print(dff9)
 
+#---------------------------------------------------------------------------------------------------------------------------------
+
 #2016 Küresel Terörizm Raporu
 print(data10.columns)
 print(data10.info())
@@ -448,6 +472,8 @@ print(data10.describe())
 df10 = data10["country"]
 dff10 = df10.value_counts()
 print(dff10)
+
+#---------------------------------------------------------------------------------------------------------------------------------
 
 #2017 Küresel Terörizm Raporu
 print(data11.columns)
