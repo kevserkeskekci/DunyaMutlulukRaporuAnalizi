@@ -1,4 +1,4 @@
-# RegresyonDunyaMutlulukRaporuAnalizi
+# DunyaMutlulukRaporuAnalizi
 Bu analiz, insanların mutluluğu ve ülkeleri arasındaki bağlantıyı değerlendirecektir.
 
 Yaşadığımız yer mutluluk oranımızın büyük bir faktörü. Bu analiz, insanların mutluluğu ve ülkeleri arasındaki bağlantıyı değerlendirecektir. Mutluluk oranı ekonomik refah, ortalama yaşam süresi, sosyal destek ve yaşam seçimleri yapma özgürlüğü gibi faktörlere dayanır. Mutluluk puanları ve sıralamaları Gallup Dünya Anketinden alınan verileri kullanır. Puanlar, ankette sorulan temel yaşam değerlendirme sorularına verilen yanıtlara dayanmaktadır.
